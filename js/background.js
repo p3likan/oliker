@@ -111,7 +111,7 @@ Oliker.prototype.workVk=function()
 						this.mainData.VK['captcha']={task:task,captcha_sid:resp.error.captcha_sid,captcha_img:resp.error.captcha_img};
 						this.storage.chromeSet(false,'VK',this.mainData.VK);
 						var myAudio=new Audio(); 
-						myAudio.src="alarm.mp3";
+						myAudio.src="media/alarm.mp3";
 						myAudio.play(); 
 					}
 					else

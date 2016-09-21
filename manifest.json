@@ -1,18 +1,18 @@
 {
 "manifest_version":2,
 "name":"OlikeR",
-"version":"0.2.1",
+"version":"0.0.1",
 "icons": {
-	"128":"icon.png"
+	"128":"images/icon.png"
 },
-"description":"OlikeR clicker",
+"description":"OlikeR automatic",
 "permissions":["storage","activeTab","tabs","notifications","*://*.vk.com/*","*://*.olike.ru/*"],
-"content_scripts":[{"matches":["*://*.vk.com/*","*://*.olike.ru/*"],"js":["main.js","content.js"]}],
-"background":{"scripts":["main.js","background.js"]},
+"content_scripts":[{"matches":["*://*.vk.com/*","*://*.olike.ru/*"],"js":["js/main.js","js/content.js"]}],
+"background":{"scripts":["js/main.js","js/background.js"]},
 "browser_action":{
 	"default_title":"OlikeR",
-	"default_icon":"icon.png",
+	"default_icon":"images/icon.png",
 	"default_popup":"popup.html"
 },
-"web_accessible_resources":["alarm.mp3"]
+"web_accessible_resources":["media/alarm.mp3"]
 }
