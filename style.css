@@ -1,0 +1,193 @@
+*
+{
+	font-size:0px;
+	line-height:0;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	outline:0px;
+}
+
+* *
+{
+	color:inherit;
+	line-height:inherit;
+	font-size:inherit;
+}
+
+body
+{
+	padding:10px;
+	min-width:230px;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body>*
+{
+	margin-bottom:10px;
+}
+
+#vk
+{
+	margin-bottom:0px;
+}
+
+#vk
+{
+	position:relative;
+	text-align:center;
+}
+
+#vk img
+{
+	width:50px;
+	height:50px;
+	float:left;
+	margin-right:10px;
+}
+
+.vk_button
+{
+	display:block;
+	text-decoration:none;
+	background:#527397;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+	line-height:30px;
+	font-size:12px;
+	border-radius:8px;
+	cursor:pointer;
+}
+
+#vk .wrap
+{
+	position:relative;
+	margin-left:60px;
+}
+
+.vk_name,.vk_attension
+{
+	display:block;
+	line-height:25px;
+	color:#41658c;
+	font-size:12px;
+	text-decoration:underline;
+	cursor:pointer;
+	text-align:left;
+}
+
+.vk_name.inline
+{
+	display:inline-block;
+	width:50%;
+}
+
+.vk_button:hover
+{
+	background:#48698D;
+}
+
+.vk_attension
+{
+	text-align:center;
+	font-weight:bold;
+	color:#757C85;
+	text-decoration:none;
+}
+
+.vk_attension[href]
+{
+	text-decoration:underline;
+}
+
+.vk_attension+.vk_name
+{
+	text-align:center;
+}
+
+.subheader
+{
+	font-size:14px;
+	text-align:left;
+	line-height:1.4;
+	cursor:default;
+	margin-bottom:10px;
+}
+
+.olike_auth,.olike_attension
+{
+	text-align:center;
+	line-height:25px;
+	font-size:12px;
+	display:block;
+	color:#757C85;
+}
+
+.olike_attension
+{
+	font-weight:bold;
+}
+
+.olike_balance_place
+{
+	position:relative;
+	transform:scale(0.5);
+	width:200%;
+	text-align:center;
+	left:-50%;
+}
+
+.olike_balance
+{
+	font-size:30px;
+	line-height:44px;
+	position:relative;
+	display:inline-block;
+	margin:10px;
+	margin-left:0px;
+}
+
+.olike_balance .img
+{
+	float:left;
+	margin-right:10px;
+	display:block;
+	background:url('habrapack.png') no-repeat;
+	width:44px;
+	height:44px;
+}
+
+.balance_vk .img{background-position:-121px -2px;}
+.balance_inst .img{background-position:-295px -177px;}
+.balance_ytb .img{background-position:-121px -60px;}
+.balance_fb .img{background-position:-295px -2px;}
+.balance_ok .img{background-position:-237px -2px;}
+
+#balance .subheader
+{
+	cursor:pointer;
+}
+
+#captchablock > *
+{
+	margin-top:10px;
+}
+
+#captchablock img
+{
+	width:100%;
+}
+
+#captchablock input,#captchablock button
+{
+	width:100%;
+	text-align:center;
+	font-size:12px;
+	line-height:1.2;
+}
+
+#captchablock input
+{
+	border:1px solid gray;
+}
